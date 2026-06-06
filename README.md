@@ -1,2 +1,9 @@
-# til
-Pequenos aprendizados diários sobre Ciência de Dados, programação e ferramentas.
+# Today I learned
+### estatistica
+
+### Git
+
+### Github
+
+### Pandas
+
