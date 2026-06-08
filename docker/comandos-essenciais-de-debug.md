@@ -5,16 +5,19 @@ Quando um contêiner apresenta falhas ou teima em ignorar edições no código-f
 # 1. Diagnóstico: Lê a saída de erros em tempo real
 ```bash
 docker-compose logs -f web
-```bash
+```
+
 # 2. Tentativa Rápida: Apenas reinicia a imagem atual (não lê código novo)
 ```bash
 docker-compose restart web
-```bash
+```
+
 # 3. Atualização Padrão: Constrói uma nova imagem com os arquivos alterados
 ```bash
 docker-compose up --build -d
-```bash
+```
+
 # 4. Força Bruta: Reconstrói do zero absoluto, sem usar cache
 ```bash
 docker-compose build --no-cache web
-```bash
+```
