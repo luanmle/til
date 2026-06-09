@@ -1,4 +1,4 @@
-# Testando App Docker no GitHub Codespaces
+# Trabalhando com Docker no GitHub Codespaces: Construir imagens
 
 Após configurar o Docker, é necessário inicializar os serviços (como banco de dados e API) e acessar a aplicação visualmente usando o ambiente do GitHub Codespaces.
 
